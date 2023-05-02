@@ -11,4 +11,10 @@ public class ArithmeticTest {
         int result = object.addition(5,5);
         Assertions.assertEquals(10,result);
     }
+
+    @Test
+    void givenTwoNumbersWhenSubstractShouldReturnDifference(){
+        int result = object.substract(5,5);
+        Assertions.assertEquals(0,result);
+    }
 }
