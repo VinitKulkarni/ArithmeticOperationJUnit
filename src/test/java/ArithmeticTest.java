@@ -17,4 +17,10 @@ public class ArithmeticTest {
         int result = object.substract(5,5);
         Assertions.assertEquals(0,result);
     }
+
+    @Test
+    void givenTwoNumbersWhenMultipliedShouldReturnProduct(){
+        int result = object.multiply(5,5);
+        Assertions.assertEquals(25,result);
+    }
 }
